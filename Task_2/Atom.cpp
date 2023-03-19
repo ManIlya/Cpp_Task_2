@@ -15,3 +15,4 @@ double Atom::getMass() {
 double Atom::getCharge() {
 	return protons - electrons;
 }
+Atom::Atom() : protons(1), neutrons(1), electrons(1){}
