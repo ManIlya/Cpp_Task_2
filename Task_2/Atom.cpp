@@ -1,5 +1,6 @@
 #include "Atom.h"
 Atom::Atom(int p, int n, int e) : protons(p), neutrons(n), electrons(e){}
+Atom:: ~Atom(){}
 int Atom::getProtons() {
 	return protons;
 }

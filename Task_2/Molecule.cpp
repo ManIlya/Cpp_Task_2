@@ -1,6 +1,9 @@
 #include "Molecule.h"
 
 Molecule::Molecule(const list<Atom> &atoms): atoms(atoms){}
+Molecule::~Molecule() {
+	atoms.clear();
+}
 
 int Molecule::getAtomsCount(Atom &atom)
 {

@@ -7,7 +7,7 @@ class Molecule
 {
 public: 
 	Molecule(const list<Atom> &atoms);
-	~Molecule() {};
+	~Molecule();
 	int getAtomsCount(Atom &atom);
 	double getEnergy();
 	double getMass();

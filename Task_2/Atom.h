@@ -3,6 +3,7 @@ class Atom
 {
 public:
     Atom(int p, int n, int e);
+    ~Atom();
     int getProtons();
     int getNeutrons();
     int getElectrons();
